@@ -159,22 +159,22 @@ aside #bolum-kategoriler a:hover {
 
 
 
-.kapsayici {
+.container {
   display: flex;
   margin: 20px 0;
   gap: 20px;
 }
 
-.kapsayici main {
+.container main {
   flex-grow: 3;
 }
 
-.kapsayici aside {
+.container aside {
   flex-grow: 1;
 }
 
 
-.kapsayici section.iletisim {
+.container section.iletisim {
   flex-grow: 1;
   flex-basis: 0;
   background-color: lightgray;
